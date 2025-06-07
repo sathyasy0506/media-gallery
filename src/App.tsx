@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { Buffer } from 'buffer';
+
 
 const API_UPLOAD_URL = "http://localhost/phpValidation/upload.php"; // Your actual upload URL
 const API_FETCH_URL = "http://localhost/phpValidation/fetch-images.php";
